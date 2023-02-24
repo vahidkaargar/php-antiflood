@@ -1,0 +1,33 @@
+{
+  "name": "vahidkaargar/php-antiflood",
+  "description": "PHP anti flood - useful to prevent from attacks on login or register forms",
+  "keywords": [
+    "php antiflood",
+    "antiflood",
+    "prevent attacks",
+    "protect",
+    "login protect",
+    "form protect"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vahidkaargar\\AntiFlood\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vahid Kaargar",
+      "homepage": "https://vahidkaargar.ir"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
